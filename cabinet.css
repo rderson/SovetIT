@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: Open Sans;
+ }
+ main{
+     background: url(BG.png);
+     width: 100%;
+     min-height: 100vh;
+ }
+ .bb{
+     width: 300px;
+     height: 10vh;
+     padding: 20px 20px;
+ }
+ .logotext{
+     float: right;
+     margin-top: 25px;
+     font-size: 25px;
+     color: #000;
+     font-family: Ubuntu;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+ .logopng{
+     margin-left: 10px;
+ }
+ .d1{
+     float: right;
+ }
+ .backimg{
+     width: 20px;
+ }
+ .avatar{
+     width: 356.15px;
+     height: 358.412px;
+     background: #fff;
+     margin-left:  50px;
+     margin-top: 27px;
+     border-radius: 15px;
+     border: 1px solid #000;
+     background: rgba(255, 255, 255, 0.30);
+     float: left;
+     transition: 0.4s;
+ }
+ .avatar:hover{
+     transform: scale(1.1);
+ }
+ .ryan{
+     width: 150px;
+     height: 150px;  
+     border-radius: 50%;
+     background: url(ryan.jpeg);
+     background-position: center ;
+     background-size: cover;
+     margin: auto;
+     margin-top: 40px;
+ }
+ .pp{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+ }
+ .infa{
+     height: 238.765px;
+     width: 949.926px;
+     border-radius: 15px;
+     border: 1px solid #000;
+     background: rgba(255, 252, 252, 0.30);
+     margin-right: 100px;
+     margin-top: 29px;
+     transition: 0.4s;
+ }
+ .infa:hover{
+     transform: scale(1.1);
+ }
+ .p5{
+     font-size: 27px;
+     margin-top: 7px;
+     margin-left: 15px;
+     float: left;
+ }
+ .huvc{
+     font-size: 27px;
+     margin-right: 20px;
+     float: right;
+     margin-top: 7px;
+     cursor: pointer;
+ }
+ .huvcicon{
+     width: 20px;
+ }
+ .p7{
+     font-size: 17px;
+     margin-left: 15px;
+     margin-top: 9px;
+ }
+ .d7{
+     font-size: 17px;
+     margin-left: 15px;
+     margin-top: 3%;
+ }
+ .message{
+    margin-top: 45px;
+    width: 949.926px ; 
+    height: 70px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: rgba(255, 252, 252, 0.30);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+ }
+ .message:hover{
+     transform: scale(1.1);
+ }
+ .chat{
+     width: 20px;
+ }
+ .mms{
+     margin-top: 20px;
+     font-size: 18px;
+ }
+ .about{
+     width: 1345px;
+     height: 150px;
+     border-radius: 15px;
+     border: 1px solid #000;
+     background: rgba(255, 252, 252, 0.30);
+     margin-top: 430px;
+     margin-left: 50px;
+     padding: 20px;
+     transition: 0.4s;
+ 
+ }
+ .about:hover{
+     transform: scale(1.05);
+ }
+ .osebe{
+     text-align: center;
+     font-size: 30px;
+ }
+ .right{
+    height: 360px;
+    float: right;
+   
+ }

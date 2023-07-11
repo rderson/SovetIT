@@ -1,0 +1,139 @@
+.contacts{
+    height: 650px;
+}
+.content{
+    height: 600px;
+}
+body{
+    margin: 0;
+}
+.header{ 
+    color: #000; 
+    text-align: center; 
+    font-family: Ubuntu; 
+    font-size: 48px; 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: normal; 
+    margin-top: 25px; 
+} 
+/* .namber-img{ 
+    width: 150px; 
+    height: 155px; 
+    flex-shrink: 0; 
+}  */
+/* .mail-img{ 
+    width: 150px; 
+    height: 150px; 
+    flex-shrink: 0; 
+}  */
+/* .geokart-img{ 
+    width: 150px; 
+    height: 132.5px; 
+    margin: 10px; 
+    flex-shrink: 0; 
+} 
+.kart-img{ 
+    width: 150px; 
+    height: 138.462px; 
+    flex-shrink: 0; 
+}  */
+table{
+    float: left;
+    margin-left: 175px;
+}
+
+img{
+    width: 75px;
+}
+.contact-text {
+    color: #000;
+    width: 400px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 50px 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 80px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+.logo-img{
+    width: 64px;
+    height: 64px;
+    background-image: url(img/Logo.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.logo{
+    float: left;
+}
+.logo-text{
+    width: 220px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    float: right;
+    margin-top: 5.5px;
+    margin-left: 5px;
+}
+h1{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 14px;
+    margin: 0;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 800px;
+    float: right;
+    padding-top: 20px;
+}
+.navi{
+    color: #000;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.3s linear;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s linear;
+}
+footer{
+    background-color: #333333;
+    height: 80px;
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.navi a:hover{
+    color: #2496F2;
+}
+.map{
+    float: right;
+    height: 575px;
+    width: 525px;  
+    margin-top: 15px;
+    margin-right: 100px;
+}

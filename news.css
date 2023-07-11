@@ -1,0 +1,163 @@
+body{
+    font-family: 'Open Sans';
+    margin: 0;
+}
+.heade-news{ 
+    color: #000; 
+    text-align: center; 
+    font-family: Ubuntu; 
+    font-size: 48px; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: normal; 
+    margin: 30px; 
+} 
+.block1-img-news{ 
+    width: 350px; 
+    height: 278px; 
+    flex-shrink: 0; 
+    border-radius: 35px; 
+    box-shadow: 12px 11px 4px 0px rgba(0, 0, 0, 0.25); 
+    float: left;
+} 
+
+
+.block3-img-news{ 
+    width: 400px; 
+    height: 440px; 
+    flex-shrink: 0; 
+    border-radius: 35px; 
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat; 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+} 
+
+.horizontal{
+    width: 350px;
+    height: 100%;
+}
+.vertical{
+    height: 440px;
+    width: 100%;
+}
+.text1-news {
+    width: 275px;
+    height: 275px;
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    float: right;
+    padding-right: 10px;
+}
+.second{
+    padding-top: 70px;
+    height: 205px;
+}
+.block1-news {
+    padding-top: 25.73px;
+    padding-left: 24.8px;
+    width: 650px;
+    height: 290px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #F6F6F6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+.block3-news{ 
+    width: 445px;
+    height: 715px;
+    flex-shrink: 0; 
+    border-radius: 35px; 
+    background: #F6F6F6; 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    float: right;
+    margin-right: 175px;
+} 
+.text3-news{ 
+    width: 400px; 
+    height: 180px;  
+    color: #000; 
+    text-align: center; 
+    font-family: 'Ubuntu'; 
+    font-size: 26px;  
+    font-weight: 500;
+    margin: auto;
+    padding-top: 40px;
+}
+.block3-img-news{
+    margin: auto;
+}
+.block-duo{
+    float: left;
+    margin-left: 75px;
+}
+header{
+    height: 80px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+.logo-img{
+    width: 64px;
+    height: 64px;
+    background-image: url(img/Logo.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.logo{
+    float: left;
+}
+.logo-text{
+    width: 220px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    float: right;
+    margin-top: 5.5px;
+    margin-left: 5px;
+}
+h1{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 14px;
+    margin: 0;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 800px;
+    float: right;
+    padding-top: 20px;
+}
+.navi{
+    color: #000;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.3s linear;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s linear;
+}
+footer{
+    background-color: #333333;
+    height: 80px;
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.navi a:hover{
+    color: #2496F2;
+}
+.news{
+    height: 800px;
+}
